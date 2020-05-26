@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/enterprise-eureka/enterprise-eureka.iml" filepath="$PROJECT_DIR$/enterprise-eureka/enterprise-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/enterprise-server.iml" filepath="$PROJECT_DIR$/enterprise-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/enterprise-usercenter/enterprise-usercenter.iml" filepath="$PROJECT_DIR$/enterprise-usercenter/enterprise-usercenter.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="enterprise-eureka" />
+        <module name="enterprise-server" />
+        <module name="enterprise-usercenter" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="enterprise-eureka" target="1.8" />
+      <module name="enterprise-server" target="1.8" />
+      <module name="enterprise-usercenter" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
