@@ -1,5 +1,7 @@
 server:
   port: 8080
+  servlet:
+    context-path:
 
 eureka:
   client:
@@ -10,3 +12,6 @@ spring:
     active: dev
   application:
     name: usercenter
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
