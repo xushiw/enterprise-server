@@ -17,6 +17,7 @@
 	<modules>
 		<module>enterprise-eureka</module>
 		<module>enterprise-usercenter</module>
+		<module>enterprise-structrue</module>
 	</modules>
 
 	<properties>

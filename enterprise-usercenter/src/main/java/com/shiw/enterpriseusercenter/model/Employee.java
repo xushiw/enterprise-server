@@ -17,7 +17,7 @@ import java.util.Date;
 public class Employee {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+//    @GeneratedValue(strategy = GenerationType.IDENTITY)  //全局生成
     private Long id;
 
     private String nikeName;

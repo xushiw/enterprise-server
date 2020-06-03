@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/enterprise-eureka/enterprise-eureka.iml" filepath="$PROJECT_DIR$/enterprise-eureka/enterprise-eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/enterprise-server.iml" filepath="$PROJECT_DIR$/enterprise-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/enterprise-structrue/enterprise-structrue.iml" filepath="$PROJECT_DIR$/enterprise-structrue/enterprise-structrue.iml" />
       <module fileurl="file://$PROJECT_DIR$/enterprise-usercenter/enterprise-usercenter.iml" filepath="$PROJECT_DIR$/enterprise-usercenter/enterprise-usercenter.iml" />
     </modules>
   </component>

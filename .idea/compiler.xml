@@ -8,12 +8,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="enterprise-eureka" />
         <module name="enterprise-server" />
+        <module name="enterprise-structrue" />
         <module name="enterprise-usercenter" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="enterprise-eureka" target="1.8" />
       <module name="enterprise-server" target="1.8" />
+      <module name="enterprise-structrue" target="1.8" />
       <module name="enterprise-usercenter" target="1.8" />
     </bytecodeTargetLevel>
   </component>
