@@ -69,6 +69,7 @@
             <version>${druid.version}</version>
         </dependency>
 
+        <!--集成swagger文档-->
         <dependency>
             <groupId>io.springfox</groupId>
             <artifactId>springfox-swagger2</artifactId>
@@ -79,6 +80,11 @@
             <groupId>io.springfox</groupId>
             <artifactId>springfox-swagger-ui</artifactId>
             <version>${swaggerui.version}</version>
+        </dependency>
+        <!--加定时器-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-quartz</artifactId>
         </dependency>
 
     </dependencies>

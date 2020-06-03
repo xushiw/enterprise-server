@@ -6,7 +6,7 @@ import java.util.List;
 
 public interface EmployeeService {
 
-    public List<Employee> findAllByName(String paramName);
+    public List<Employee> findAllByName();
 
     public Employee findById(Long id);
 
@@ -14,5 +14,4 @@ public interface EmployeeService {
 
     public int delEmployee(Long id);
 
-    public Employee updateEmployee(Employee emp);
 }

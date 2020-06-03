@@ -5,6 +5,7 @@ import com.shiw.enterpriseusercenter.model.Employee;
 import com.shiw.enterpriseusercenter.service.EmployeeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 import java.util.Optional;
@@ -16,10 +17,8 @@ public class EmployeeServiceImpl implements EmployeeService {
     private EmployeeMapper employeeMapper;
 
     @Override
-    public List<Employee> findAllByName(String paramName) {
-
-        //return employeeMapper.findAllByName(paramName);
-        return null;
+    public List<Employee> findAllByName() {
+        return employeeMapper.findAll();
     }
 
     @Override
@@ -28,20 +27,16 @@ public class EmployeeServiceImpl implements EmployeeService {
     }
 
     @Override
+    @Transactional
     public Employee addEmployee(Employee emp) {
-
-        //return employeeMapper.save(emp);
-        return null;
+        return employeeMapper.save(emp);
     }
 
     @Override
+    @Transactional
     public int delEmployee(Long id) {
-        return 0;
+        employeeMapper.deleteById(id.longValue());
+        return (int) employeeMapper.count();
     }
 
-    @Override
-    public Employee updateEmployee(Employee emp) {
-//        return employeeMapper.updateByPrimaryKeySelective(emp);
-        return null;
-    }
 }
