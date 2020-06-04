@@ -63,11 +63,11 @@
             <artifactId>mysql-connector-java</artifactId>
         </dependency>
 
-        <dependency>
+        <!--<dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>druid</artifactId>
             <version>${druid.version}</version>
-        </dependency>
+        </dependency>-->
 
         <!--集成swagger文档-->
         <dependency>
